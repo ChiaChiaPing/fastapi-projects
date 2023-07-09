@@ -1,0 +1,36 @@
+{% include 'layout.html' %}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Change Password
+        </div>
+        <div class="card-body">
+            {% if result_code == False %}
+            <div class="alert alert-danger" role="alert">
+                {{msg}}
+            </div>
+            {% elif result_code == True %}
+            <div class="alert alert-success" role="alert">
+                {{msg}}
+            </div>
+            {% endif %}
+            
+            <form method="post" action="/users/change-password">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" class="form-control" name="username" value="{{user.get('username')}}" readonly required>
+                </div>
+                <div clas="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" name="password" required>
+                </div>
+                <div clas="form-group">
+                    <label>New Password</label>
+                    <input type="password" class="form-control" name="new_password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Change Password</button>
+            </form>
+        </div>
+    </div>
+</div>
