@@ -3,13 +3,14 @@
 Basic fastapi coding, including the web service and full stack projects for POC purpose.
 
 ## Documentation
-https://fastapi.tiangolo.com/
+[FastAPI Official documentation](https://fastapi.tiangolo.com/)
 
 ## Dependencies:
-- Alembic
-- PostgreSQL
-- MySQL
-- Sqlite
+- [Alembic](https://alembic.sqlalchemy.org/en/latest/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [MySQL](https://www.mysql.com/)
+- [Sqlite](https://www.sqlite.org/index.html)
+- [uvicorn](https://www.uvicorn.org/)
 
 
 ## Installation
@@ -31,7 +32,7 @@ Websites:
 
 
 ## Deployment
-- Render Cloud platform
+[Render](https://render.com/) Cloud platform
 
 ## Contributing
 
