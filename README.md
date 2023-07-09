@@ -2,6 +2,16 @@
 ## About The Project
 Basic fastapi coding, including the web service and full stack projects for POC purpose.
 
+## Documentation
+https://fastapi.tiangolo.com/
+
+## Dependencies:
+- Alembic
+- PostgreSQL
+- MySQL
+- Sqlite
+
+
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install projects.
 
@@ -18,9 +28,7 @@ uvicorn main:app --reload
 ```
 Websites:
 
-## Dependencies:
-- PostgreSQL
-  
+
 
 ## Deployment
 - Render Cloud platform
