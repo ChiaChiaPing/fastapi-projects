@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # sqlite
 #SQLALCHEMY_DATABASE_URL = "sqlite:///./todos.db"
 
-# PostgrSsql: need hide password bro
+# PostgeSQL: need hide password bro
 SQLALCHEMY_DATABASE_URL = "postgresql://dpzseuxc:m84zSOdGO_DQ6khgs5C8B9_gUj9J93WX@john.db.elephantsql.com/dpzseuxc"
 
 engine = create_engine(
